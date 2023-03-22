@@ -1,7 +1,8 @@
+<div dir='rtl' lang='he'>
 # Puzzleycode
 
 משחק מטאורים: מטרת המשחק לאסוף כמה שיותר אבנים מיוחדות אשר לכל אבן מבנה אטומי שונה באתרים של מטאורים בארה"ב השחקן מתחיל באתר שבו היה נפילה של המון מטאורים שעליו לחפש אבנים מיוחדות עם מבנה אטומי שונה הוא צריך לזהות עם כלים מיוחדים אם האבן היא באמת מטאור או סתם אבן לפי מבנה האטומי, ואם כן, לאסוף בסוף כל משימה עליו לדווח ולקבל ניקוד בהתאם וכך הוא יוכל לקנות מכשירים מיוחדים וכן הלאה.
 
 להלן קישור לרכיבי המשחק: 
- https://github.com/game-dev-course/AntiVirus-Human/blob/main/formal-elements.md
-
+ [https://github.com/game-dev-course/AntiVirus-Human/blob/main/formal-elements.md](https://github.com/game-dev-course/Puzzleycode/blob/main/formal-elements.md)
+</div>
