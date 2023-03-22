@@ -1,6 +1,6 @@
 <div dir='rtl' lang='he'>
 
-# כותרת ראשית: שם המשחק
+# Puzzleycode
 
 **"Puzzles that code your brain, Puzzleycode is the ultimate code game!"**
 
