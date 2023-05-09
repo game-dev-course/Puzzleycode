@@ -5920,7 +5920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  next_scene: 1_1
+  next_scene: tutorial
 --- !u!4 &1834671223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3758857828863978653, guid: 7a221b514a6132e448d3d877d8d3bace, type: 3}

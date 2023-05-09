@@ -7,7 +7,7 @@ public class portal : MonoBehaviour
 {
     public float speed = 10f;
     public string next_scene;
-    // Start is called before the first frame update
+    // Start is called before the first frame update ofek
     void Start()
     {
         
