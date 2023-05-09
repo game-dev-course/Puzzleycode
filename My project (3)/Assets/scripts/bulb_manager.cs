@@ -13,7 +13,7 @@ public class bulb_manager : MonoBehaviour
 
     public bool show = true;
     bool[] number;
-
+    public bool move_page = true;
     public string back_scene;
     public int win_number;
     // Start is called before the first frame update
@@ -62,7 +62,10 @@ public class bulb_manager : MonoBehaviour
         }
         if (num == win_number)
         {
-            SceneManager.LoadScene(back_scene);
+            if (this.move_page)
+            {
+                SceneManager.LoadScene(back_scene);
+            }
         }
 
     }
