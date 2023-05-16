@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class move_player_map : MonoBehaviour
 {
     public float speed = 10f;
-    Rigidbody rb;
+
     public TextMesh textmesh;
     static bool first_time = true;
     // Start is called before the first frame update
     void Start()
     {
-        rb = this.GetComponent<Rigidbody>();
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -40,7 +40,6 @@ public class move_player_map : MonoBehaviour
             this.StartCoroutine(dissapear());
             first_time = false;
         }
-        rb.velocity = new Vector3(xMove, 0, zMove) * speed; // Creates velocity in direction of value equal to keypress (WASD). rb.velocity.y deals with falling + jumping by setting velocity to y. 
 
 
 

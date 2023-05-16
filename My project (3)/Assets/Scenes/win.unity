@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sleep_time: 3
-  scene_levels: levels
+  scene_levels: lobby
 --- !u!1 &1206551560
 GameObject:
   m_ObjectHideFlags: 0
