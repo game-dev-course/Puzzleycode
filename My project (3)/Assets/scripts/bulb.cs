@@ -5,6 +5,7 @@ using UnityEngine;
 public class bulb : MonoBehaviour
 {
     bool on = true;
+    
     public Sprite off_p;
     public Sprite on_p;
 
