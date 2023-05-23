@@ -15,36 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/credits.unity
     guid: aac73fbb1dde1a44fbefdeb719a685c8
   - enabled: 1
-    path: Assets/Scenes/levels.unity
-    guid: eeea87a9a3c988a4699890703e7351d2
-  - enabled: 1
-    path: Assets/Scenes/world3/3_1.unity
-    guid: 601a07a3c05174445bb2935db45d64e4
-  - enabled: 1
-    path: Assets/Scenes/world3/3_3.unity
-    guid: f3f37c917393aef4eb42c5aadbc8f085
-  - enabled: 1
-    path: Assets/Scenes/world2/2_1.unity
-    guid: 66293c7779faa5d43b7c0c5d93dc47e4
-  - enabled: 1
-    path: Assets/Scenes/world2/2_2.unity
-    guid: 02a342890d2ad9a4e9646174a0f97010
-  - enabled: 1
-    path: Assets/Scenes/world2/2_3.unity
-    guid: 7bbc6cb4ccc31894dacab26c976f091c
-  - enabled: 1
-    path: Assets/Scenes/world1/1_1.unity
-    guid: 68fb5029105be494ca99539c22f7a314
-  - enabled: 1
-    path: Assets/Scenes/world1/1_2.unity
-    guid: de7db3ce3f7381f4286c41214f51d434
-  - enabled: 1
-    path: Assets/Scenes/world1/1_3.unity
-    guid: e3b54dd8e5154ff4089a37fad4bdf2c7
-  - enabled: 1
-    path: Assets/Scenes/win.unity
-    guid: 8e9ae21b89a9ce2469bd317298528652
-  - enabled: 1
     path: Assets/Scenes/opening_seq.unity
     guid: 9b64e06532fbd514181d408a7eea3fc5
   - enabled: 1
