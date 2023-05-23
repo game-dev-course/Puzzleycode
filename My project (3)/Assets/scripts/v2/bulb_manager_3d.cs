@@ -17,6 +17,9 @@ public class bulb_manager_3d : MonoBehaviour
     public bool code_true = false;
     public int code = 0;
     bool[] number;
+
+    public open_door doorA;
+    public open_door doorB;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +53,7 @@ public class bulb_manager_3d : MonoBehaviour
             }
             runner++;
         }
+        print(num);
         if (num == code)
         {
             code_true = true;
@@ -61,6 +65,11 @@ public class bulb_manager_3d : MonoBehaviour
 
     }
 
+    public void open_doors()
+    {
+        doorB.change_move();
+        doorA.change_move();
+    }
     // Update is called once per frame
     void Update()
     {

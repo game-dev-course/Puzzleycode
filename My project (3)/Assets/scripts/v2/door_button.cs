@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class door_button : MonoBehaviour
 {
-    public open_door doorA;
-    public open_door doorB;
     public Camera m_MainCamera;
     // Start is called before the first frame update
     void Start()
@@ -36,11 +34,10 @@ public class door_button : MonoBehaviour
         Debug.Log(gameObject.tag);
         if (gameObject.tag == "button")
         {
-            Debug.Log(gameObject.GetComponent<bulb_manager_3d>().code_true);
+            Debug.Log(gameObject.GetComponent<bulb_manager_3d>().code);
             if (gameObject.GetComponent<bulb_manager_3d>().code_true)
             {
-                doorB.change_move();
-                doorA.change_move();
+                gameObject.GetComponent<bulb_manager_3d>().open_doors();
             }
 
         }
