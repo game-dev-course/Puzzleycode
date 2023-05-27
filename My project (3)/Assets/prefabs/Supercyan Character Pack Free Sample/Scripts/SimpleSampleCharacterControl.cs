@@ -40,15 +40,15 @@ public class SimpleSampleCharacterControl : MonoBehaviour
     private bool m_jumpInput = false;
 
     private bool m_isGrounded;
-
+    private Rigidbody rb;
     private List<Collider> m_collisions = new List<Collider>();
 
     private void Awake()
     {
+        rb = this.GetComponent<Rigidbody>();
         if (!m_animator) { gameObject.GetComponent<Animator>(); }
         if (!m_rigidBody) { gameObject.GetComponent<Animator>(); }
     }
-
     private void OnCollisionEnter(Collision collision)
     {
         ContactPoint[] contactPoints = collision.contacts;
@@ -156,6 +156,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         m_currentH = Mathf.Lerp(m_currentH, h, Time.deltaTime * m_interpolation);
 
         transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
+        
         transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
         m_animator.SetFloat("MoveSpeed", m_currentV);

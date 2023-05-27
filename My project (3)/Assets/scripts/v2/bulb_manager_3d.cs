@@ -10,6 +10,7 @@ public class bulb_manager_3d : MonoBehaviour
     public Transform place;
     public int length;
     public GameObject prefab_bulb;
+    public GameObject blockade;
     //used to play with position
     public int steps;
     public int shift;
@@ -20,9 +21,12 @@ public class bulb_manager_3d : MonoBehaviour
 
     public open_door doorA;
     public open_door doorB;
+
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
         number = new bool[length];
 
         for (int j = 0; j < length; j++)
@@ -67,8 +71,24 @@ public class bulb_manager_3d : MonoBehaviour
 
     public void open_doors()
     {
+        Destroy(blockade);
         doorB.change_move();
         doorA.change_move();
+    }
+    public void click_animate()
+    {
+        StartCoroutine(waiter());
+    }
+
+    IEnumerator waiter()
+    {
+        //Rotate 90 deg
+        animator.SetBool("pressed", true);
+
+        //Wait for 4 seconds
+        yield return new WaitForSeconds(0.3f);
+
+        animator.SetBool("pressed", false);
     }
     // Update is called once per frame
     void Update()

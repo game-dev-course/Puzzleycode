@@ -34,10 +34,13 @@ public class door_button : MonoBehaviour
         Debug.Log(gameObject.tag);
         if (gameObject.tag == "button")
         {
+            gameObject.GetComponent<bulb_manager_3d>().click_animate();
             Debug.Log(gameObject.GetComponent<bulb_manager_3d>().code);
+
             if (gameObject.GetComponent<bulb_manager_3d>().code_true)
             {
                 gameObject.GetComponent<bulb_manager_3d>().open_doors();
+                
             }
 
         }
