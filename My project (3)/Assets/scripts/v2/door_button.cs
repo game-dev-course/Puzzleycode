@@ -31,11 +31,9 @@ public class door_button : MonoBehaviour
     }
     public void CurrentClickedGameObject(GameObject gameObject)
     {
-        Debug.Log(gameObject.tag);
         if (gameObject.tag == "button")
         {
             gameObject.GetComponent<bulb_manager_3d>().click_animate();
-            Debug.Log(gameObject.GetComponent<bulb_manager_3d>().code);
 
             if (gameObject.GetComponent<bulb_manager_3d>().code_true)
             {

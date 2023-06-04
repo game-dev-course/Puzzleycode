@@ -23,6 +23,8 @@ public class bulb_manager_3d : MonoBehaviour
     public open_door doorB;
 
     private Animator animator;
+
+    public string nextroom;
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +73,7 @@ public class bulb_manager_3d : MonoBehaviour
 
     public void open_doors()
     {
+        SceneManager.LoadScene(nextroom, LoadSceneMode.Additive);
         Destroy(blockade);
         doorB.change_move();
         doorA.change_move();
