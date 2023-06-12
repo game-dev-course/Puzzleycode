@@ -8,3 +8,5 @@ Puzzles that code your brain, Puzzleycode is the ultimate code game weak8!
 
 
 [itch](https://gamedevcourse.itch.io/puzzlycode-v1)
+
+Thanks!
