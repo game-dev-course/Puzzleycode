@@ -12,6 +12,8 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 [Uu]ser[Ss]ettings/
+**/Debug/
+
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
@@ -45,6 +47,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.exe
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -68,6 +71,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
 
 
 
