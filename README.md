@@ -4,9 +4,13 @@
 Puzzles that code your brain, Puzzleycode is the ultimate code game weak8!
 
 
-[GitHub](https://github.com/game-dev-course/Puzzleycode/blob/main/formal-elements.md)
+[formal-elements](https://github.com/game-dev-course/Puzzleycode/blob/main/formal-elements.md)
 
 
-[itch](https://gamedevcourse.itch.io/puzzlycode-v1)
+The source GitHub:
+[https://github.com/GalKoaz/PuzzleyCode](https://github.com/GalKoaz/PuzzleyCode)
+
+The itch URL:
+[https://galkoaz.itch.io/puzzleycode](https://galkoaz.itch.io/puzzleycode)
 
 Thanks!
